@@ -1,0 +1,4618 @@
+{
+  "source": "CACHED_SYNTHETIC_GOOGLE_TTS_AUDIO_DECODED_BY_VOSK",
+  "navigation": "REAL_NAV2_ACTIONS_IN_TURTLEBOT4_MAZE_SIMULATOR",
+  "started_wall": 1794021418.3473737,
+  "commands": [
+    {
+      "time_s": 0.19361476899985064,
+      "wall_time": 1794021418.5409868,
+      "audio": "command_1.wav",
+      "spoken": "Đi đến khu vực A",
+      "transcript": "đi đến khu vực a",
+      "confidence": 0.9975902,
+      "parsed_kind": "NAVIGATE",
+      "expected_route": [
+        "A"
+      ],
+      "result": "ROUTE_SUCCEEDED",
+      "completed_in_order": [
+        "A"
+      ],
+      "goal_errors_m": [
+        0.23739203773726922
+      ]
+    },
+    {
+      "time_s": 2.659791119999909,
+      "wall_time": 1794021421.0071642,
+      "audio": "command_3.wav",
+      "spoken": "Đi đến phòng thí nghiệm",
+      "transcript": "đi đến phòng thí nghiệm",
+      "confidence": 0.997949,
+      "parsed_kind": "NAVIGATE",
+      "expected_route": [
+        "B"
+      ],
+      "result": "ROUTE_SUCCEEDED",
+      "completed_in_order": [
+        "B"
+      ],
+      "goal_errors_m": [
+        0.23185443191536853
+      ]
+    },
+    {
+      "time_s": 48.06328499199981,
+      "wall_time": 1794021466.410658,
+      "audio": "command_2.wav",
+      "spoken": "Di chuyển từ khu vực A đến khu vực B",
+      "transcript": "di chuyển từ khu vực a đến khu vực bê",
+      "confidence": 0.9871455000000001,
+      "parsed_kind": "NAVIGATE",
+      "expected_route": [
+        "A",
+        "B"
+      ],
+      "result": "ROUTE_SUCCEEDED",
+      "completed_in_order": [
+        "A",
+        "B"
+      ],
+      "goal_errors_m": [
+        0.18010137399453569,
+        0.23229621749685722
+      ]
+    },
+    {
+      "time_s": 142.94405088999997,
+      "wall_time": 1794021561.2914245,
+      "audio": "command_4.wav",
+      "spoken": "Đi đến hành lang",
+      "transcript": "đi đến hành lang",
+      "confidence": 1.0,
+      "parsed_kind": "NAVIGATE",
+      "expected_route": [
+        "C"
+      ],
+      "result": "ROUTE_SUCCEEDED",
+      "completed_in_order": [
+        "C"
+      ],
+      "goal_errors_m": [
+        0.23629335166368526
+      ]
+    },
+    {
+      "time_s": 227.92121821299997,
+      "wall_time": 1794021646.2685916,
+      "audio": "command_5.wav",
+      "spoken": "Đi đến khu vực D",
+      "transcript": "đi đến khu vực đê",
+      "confidence": 0.9972452,
+      "parsed_kind": "UNKNOWN_REGION",
+      "expected_route": [],
+      "result": "REJECTED_UNKNOWN_REGION"
+    }
+  ],
+  "statuses": [
+    {
+      "event": "ROUTE_ACCEPTED",
+      "wall_time": 1794021418.5429194,
+      "monotonic": 1047.041991293,
+      "sim_time": 203.106,
+      "state": "SUCCEEDED",
+      "message": "Tuyến đã xác định: A",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778322672,
+        -2.7721273870793666,
+        -0.26381315915241577
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SENT",
+      "wall_time": 1794021418.5456264,
+      "monotonic": 1047.044697693,
+      "sim_time": 203.106,
+      "state": "SENDING",
+      "message": "Đang đến A · Phòng học",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778322672,
+        -2.7721273870793666,
+        -0.26381315915241577
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": "",
+      "goal": {
+        "x": -2.0,
+        "y": -3.0,
+        "yaw": 0.0
+      },
+      "region_id": "A"
+    },
+    {
+      "event": "GOAL_ACCEPTED",
+      "wall_time": 1794021418.5505805,
+      "monotonic": 1047.049652283,
+      "sim_time": 203.115,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · Phòng học",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778322672,
+        -2.7721273870793666,
+        -0.26381315915241577
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021418.5540047,
+      "monotonic": 1047.053075905,
+      "sim_time": 203.115,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.27 m",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778322672,
+        -2.7721273870793666,
+        -0.26381315915241577
+      ],
+      "distance_remaining_m": 0.270710825920105,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SUCCEEDED",
+      "wall_time": 1794021418.860102,
+      "monotonic": 1047.359173506,
+      "sim_time": 203.25,
+      "state": "BETWEEN_GOALS",
+      "message": "Đã đến A.",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 0,
+      "pose": [
+        -1.9334488778328738,
+        -2.7721273870792076,
+        -0.24719523946370373
+      ],
+      "distance_remaining_m": 0.270710825920105,
+      "ready_reason": "",
+      "region_id": "A",
+      "error_m": 0.23739203773726922,
+      "action_status": 4
+    },
+    {
+      "event": "ROUTE_SUCCEEDED",
+      "wall_time": 1794021418.8625894,
+      "monotonic": 1047.361661236,
+      "sim_time": 203.25,
+      "state": "SUCCEEDED",
+      "message": "Đã hoàn thành tuyến A",
+      "command": "đi đến khu vực a",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.9334488778328738,
+        -2.7721273870792076,
+        -0.24719523946370373
+      ],
+      "distance_remaining_m": 0.270710825920105,
+      "ready_reason": ""
+    },
+    {
+      "event": "ROUTE_ACCEPTED",
+      "wall_time": 1794021421.0094204,
+      "monotonic": 1049.508492666,
+      "sim_time": 204.264,
+      "state": "SUCCEEDED",
+      "message": "Tuyến đã xác định: B",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778330274,
+        -2.772127387079169,
+        -0.24439210657121013
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SENT",
+      "wall_time": 1794021421.0147877,
+      "monotonic": 1049.51385877,
+      "sim_time": 204.264,
+      "state": "SENDING",
+      "message": "Đang đến B · Phòng thí nghiệm",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778330274,
+        -2.772127387079169,
+        -0.24439210657121013
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": "",
+      "goal": {
+        "x": 2.0,
+        "y": -3.0,
+        "yaw": 0.0
+      },
+      "region_id": "B"
+    },
+    {
+      "event": "GOAL_ACCEPTED",
+      "wall_time": 1794021421.021451,
+      "monotonic": 1049.520523272,
+      "sim_time": 204.273,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · Phòng thí nghiệm",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9334488778330274,
+        -2.772127387079169,
+        -0.24439210657121013
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021421.5612617,
+      "monotonic": 1050.060332805,
+      "sim_time": 204.513,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 4.42 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.9273550515928473,
+        -2.7737935734199253,
+        -0.2870218904251696
+      ],
+      "distance_remaining_m": 4.420710563659668,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021424.5713136,
+      "monotonic": 1053.070384828,
+      "sim_time": 205.827,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 4.10 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.6597084583547745,
+        -2.9207546685612575,
+        -0.6420506250320682
+      ],
+      "distance_remaining_m": 4.095709800720215,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021427.571345,
+      "monotonic": 1056.070416378,
+      "sim_time": 207.105,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 3.92 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.4286288958833917,
+        -3.1315297216803644,
+        -0.7608253700832759
+      ],
+      "distance_remaining_m": 3.923682451248169,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021430.5717697,
+      "monotonic": 1059.070840748,
+      "sim_time": 208.353,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 3.47 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.1640418155121846,
+        -3.3243919180775117,
+        -0.49547940183767375
+      ],
+      "distance_remaining_m": 3.4707112312316895,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021433.57192,
+      "monotonic": 1062.070991043,
+      "sim_time": 209.682,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 3.08 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.8625160081995071,
+        -3.427828722221139,
+        -0.16729581637950683
+      ],
+      "distance_remaining_m": 3.0794525146484375,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021436.581363,
+      "monotonic": 1065.080434171,
+      "sim_time": 211.026,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.69 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.5225106613849506,
+        -3.4704688933791608,
+        0.004035381778739189
+      ],
+      "distance_remaining_m": 2.691793918609619,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021439.5920453,
+      "monotonic": 1068.091116576,
+      "sim_time": 212.322,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.39 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.21434669016740487,
+        -3.473433243306522,
+        0.029415794573501214
+      ],
+      "distance_remaining_m": 2.3904781341552734,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021442.6026442,
+      "monotonic": 1071.101743329,
+      "sim_time": 213.657,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.05 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.15311704583791774,
+        -3.459241467862574,
+        0.023603597926492064
+      ],
+      "distance_remaining_m": 2.0457098484039307,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021445.6120422,
+      "monotonic": 1074.111113482,
+      "sim_time": 215.013,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.72 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.4705883751091277,
+        -3.484523244136551,
+        0.02670873121030016
+      ],
+      "distance_remaining_m": 1.7207105159759521,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021448.621574,
+      "monotonic": 1077.120645008,
+      "sim_time": 216.402,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.37 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.8179215435095644,
+        -3.483646791956687,
+        0.09470339000304437
+      ],
+      "distance_remaining_m": 1.3707096576690674,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021451.622625,
+      "monotonic": 1080.121696662,
+      "sim_time": 217.725,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.00 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.152184312843724,
+        -3.44675190301417,
+        0.2242940711370637
+      ],
+      "distance_remaining_m": 0.995711088180542,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021454.631284,
+      "monotonic": 1083.130355082,
+      "sim_time": 219.009,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.67 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.4229465355643582,
+        -3.353094520517267,
+        0.38208324245183917
+      ],
+      "distance_remaining_m": 0.6707103252410889,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021457.6314344,
+      "monotonic": 1086.130505761,
+      "sim_time": 220.371,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.37 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.7043903053754017,
+        -3.212449511901989,
+        0.5619872064224517
+      ],
+      "distance_remaining_m": 0.37071070075035095,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021460.6417692,
+      "monotonic": 1089.140840328,
+      "sim_time": 221.682,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.25 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8062578019556152,
+        -3.135874154992586,
+        0.5169446724718157
+      ],
+      "distance_remaining_m": 0.2532551884651184,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021463.6515603,
+      "monotonic": 1092.150631251,
+      "sim_time": 222.993,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.22 m",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8109028730600447,
+        -3.1345300577857187,
+        0.28996978075830016
+      ],
+      "distance_remaining_m": 0.2207103818655014,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SUCCEEDED",
+      "wall_time": 1794021464.23279,
+      "monotonic": 1092.731862018,
+      "sim_time": 223.251,
+      "state": "BETWEEN_GOALS",
+      "message": "Đã đến B.",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [
+        "B"
+      ],
+      "index": 0,
+      "pose": [
+        1.8111202194699363,
+        -3.13446525984697,
+        0.2459223874459622
+      ],
+      "distance_remaining_m": 0.2207103818655014,
+      "ready_reason": "",
+      "region_id": "B",
+      "error_m": 0.23185443191536853,
+      "action_status": 4
+    },
+    {
+      "event": "ROUTE_SUCCEEDED",
+      "wall_time": 1794021464.235283,
+      "monotonic": 1092.734354745,
+      "sim_time": 223.251,
+      "state": "SUCCEEDED",
+      "message": "Đã hoàn thành tuyến B",
+      "command": "đi đến phòng thí nghiệm",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "B"
+      ],
+      "completed": [
+        "B"
+      ],
+      "index": 1,
+      "pose": [
+        1.8111202194699363,
+        -3.13446525984697,
+        0.2459223874459622
+      ],
+      "distance_remaining_m": 0.2207103818655014,
+      "ready_reason": ""
+    },
+    {
+      "event": "ROUTE_ACCEPTED",
+      "wall_time": 1794021466.4126725,
+      "monotonic": 1094.911744219,
+      "sim_time": 224.178,
+      "state": "SUCCEEDED",
+      "message": "Tuyến đã xác định: A → B",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.79968855834619,
+        -3.142895382994345,
+        0.2306967025998245
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SENT",
+      "wall_time": 1794021466.4155364,
+      "monotonic": 1094.914607595,
+      "sim_time": 224.178,
+      "state": "SENDING",
+      "message": "Đang đến A · Phòng học",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.79968855834619,
+        -3.142895382994345,
+        0.2306967025998245
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": "",
+      "goal": {
+        "x": -2.0,
+        "y": -3.0,
+        "yaw": 0.0
+      },
+      "region_id": "A"
+    },
+    {
+      "event": "GOAL_ACCEPTED",
+      "wall_time": 1794021466.4192297,
+      "monotonic": 1094.918302734,
+      "sim_time": 224.178,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · Phòng học",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.79968855834619,
+        -3.142895382994345,
+        0.2306967025998245
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021466.658945,
+      "monotonic": 1095.158016219,
+      "sim_time": 224.283,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 4.06 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.800086800637825,
+        -3.14280277592301,
+        0.22535195394076193
+      ],
+      "distance_remaining_m": 4.0623979568481445,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021469.6689687,
+      "monotonic": 1098.168039895,
+      "sim_time": 225.585,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 4.04 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.78600988313503,
+        -3.1449203904373135,
+        -1.0106828313465535
+      ],
+      "distance_remaining_m": 4.039168834686279,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021472.6793563,
+      "monotonic": 1101.178427624,
+      "sim_time": 226.881,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 4.00 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.826080632889909,
+        -3.309664038343521,
+        -2.139237229338765
+      ],
+      "distance_remaining_m": 3.995711088180542,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021475.6895509,
+      "monotonic": 1104.188622236,
+      "sim_time": 228.183,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 3.80 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.639338852502352,
+        -3.4904669067549734,
+        -2.8891356473888146
+      ],
+      "distance_remaining_m": 3.7957112789154053,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021478.6907375,
+      "monotonic": 1107.189808599,
+      "sim_time": 229.452,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 3.47 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.3370907021778353,
+        -3.523310110120437,
+        3.121803025189456
+      ],
+      "distance_remaining_m": 3.470710515975952,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021481.6986885,
+      "monotonic": 1110.19775972,
+      "sim_time": 230.784,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 3.15 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.0178608262509647,
+        -3.5052292377841416,
+        3.068838932032651
+      ],
+      "distance_remaining_m": 3.1457107067108154,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021484.698751,
+      "monotonic": 1113.19782218,
+      "sim_time": 232.008,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 2.85 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.6988421985931779,
+        -3.4939874144240113,
+        3.085102503018646
+      ],
+      "distance_remaining_m": 2.845710515975952,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021487.6988368,
+      "monotonic": 1116.197908105,
+      "sim_time": 233.298,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 2.52 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.38959139933319414,
+        -3.476728573536925,
+        3.047390655858401
+      ],
+      "distance_remaining_m": 2.5207109451293945,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021490.69895,
+      "monotonic": 1119.198021482,
+      "sim_time": 234.627,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 2.17 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.060045430694631086,
+        -3.4628626131291926,
+        3.018535492419372
+      ],
+      "distance_remaining_m": 2.170711040496826,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021493.6992185,
+      "monotonic": 1122.198289608,
+      "sim_time": 235.968,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 1.82 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.2862523806385512,
+        -3.477828862582101,
+        3.0361191423932854
+      ],
+      "distance_remaining_m": 1.8207107782363892,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021496.7092059,
+      "monotonic": 1125.208276771,
+      "sim_time": 237.282,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 1.50 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.6170762860625543,
+        -3.446031488771267,
+        3.0727688792124344
+      ],
+      "distance_remaining_m": 1.495710849761963,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021499.7192333,
+      "monotonic": 1128.218304697,
+      "sim_time": 238.593,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 1.15 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.9513134626671265,
+        -3.418346828530019,
+        3.0419922055359843
+      ],
+      "distance_remaining_m": 1.145711064338684,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021502.7289035,
+      "monotonic": 1131.227974678,
+      "sim_time": 239.889,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.84 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.2615941024392592,
+        -3.3568701878992213,
+        2.8535146423156554
+      ],
+      "distance_remaining_m": 0.8420045375823975,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021505.739636,
+      "monotonic": 1134.238707195,
+      "sim_time": 241.257,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.50 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.5680425638037783,
+        -3.2576251867581094,
+        2.6933214694244176
+      ],
+      "distance_remaining_m": 0.4957106113433838,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021508.739775,
+      "monotonic": 1137.23884607,
+      "sim_time": 242.577,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.25 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.7866447177518268,
+        -3.1429520373841964,
+        2.5712809422545435
+      ],
+      "distance_remaining_m": 0.2547897696495056,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021511.7491546,
+      "monotonic": 1140.248225539,
+      "sim_time": 243.873,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.25 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.807272099563446,
+        -3.140238380697709,
+        1.3363711852772107
+      ],
+      "distance_remaining_m": 0.2547897696495056,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021514.7598922,
+      "monotonic": 1143.258963387,
+      "sim_time": 245.187,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.17 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.8501599263142403,
+        -3.1190952626758417,
+        0.6260574576492814
+      ],
+      "distance_remaining_m": 0.17071077227592468,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021517.760073,
+      "monotonic": 1146.259144037,
+      "sim_time": 246.483,
+      "state": "NAVIGATING",
+      "message": "Đang đến A · còn 0.19 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.8639527034016288,
+        -3.114313726689808,
+        0.3089435807136598
+      ],
+      "distance_remaining_m": 0.18595145642757416,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SUCCEEDED",
+      "wall_time": 1794021518.5792754,
+      "monotonic": 1147.078347309,
+      "sim_time": 246.834,
+      "state": "BETWEEN_GOALS",
+      "message": "Đã đến A.",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 0,
+      "pose": [
+        -1.865997340065543,
+        -3.1203320075674377,
+        0.265405235440196
+      ],
+      "distance_remaining_m": 0.18595145642757416,
+      "ready_reason": "",
+      "region_id": "A",
+      "error_m": 0.18010137399453569,
+      "action_status": 4
+    },
+    {
+      "event": "GOAL_SENT",
+      "wall_time": 1794021518.5815818,
+      "monotonic": 1147.080652942,
+      "sim_time": 246.834,
+      "state": "SENDING",
+      "message": "Đang đến B · Phòng thí nghiệm",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.865997340065543,
+        -3.1203320075674377,
+        0.265405235440196
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": "",
+      "goal": {
+        "x": 2.0,
+        "y": -3.0,
+        "yaw": 0.0
+      },
+      "region_id": "B"
+    },
+    {
+      "event": "GOAL_ACCEPTED",
+      "wall_time": 1794021518.5885854,
+      "monotonic": 1147.087657469,
+      "sim_time": 246.834,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · Phòng thí nghiệm",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.865997340065543,
+        -3.1203320075674377,
+        0.265405235440196
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021520.7645984,
+      "monotonic": 1149.263669629,
+      "sim_time": 247.809,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 4.11 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.7096211756662751,
+        -3.1338282271616995,
+        -0.18712243218473537
+      ],
+      "distance_remaining_m": 4.114628791809082,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021523.774265,
+      "monotonic": 1152.273336218,
+      "sim_time": 249.147,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 3.87 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.3801237481963606,
+        -3.2612474780248686,
+        -0.4433406834198658
+      ],
+      "distance_remaining_m": 3.866041421890259,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021526.784361,
+      "monotonic": 1155.283432044,
+      "sim_time": 250.497,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 3.32 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -1.0515799012809173,
+        -3.4034370315425364,
+        -0.3243886108584379
+      ],
+      "distance_remaining_m": 3.320709228515625,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021529.7942092,
+      "monotonic": 1158.293280463,
+      "sim_time": 251.793,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.92 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -0.7361730240698672,
+        -3.4735861261370613,
+        -0.14883225571897638
+      ],
+      "distance_remaining_m": 2.920711040496826,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021532.8041677,
+      "monotonic": 1161.303238838,
+      "sim_time": 253.155,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.60 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -0.39944534265101167,
+        -3.501333849640373,
+        -0.06787873460256282
+      ],
+      "distance_remaining_m": 2.595710277557373,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021535.8046231,
+      "monotonic": 1164.303694562,
+      "sim_time": 254.499,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 2.25 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        -0.06908583295401127,
+        -3.5020622178469014,
+        -0.017385269635710694
+      ],
+      "distance_remaining_m": 2.2457094192504883,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021538.8051202,
+      "monotonic": 1167.304191346,
+      "sim_time": 255.864,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.90 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        0.26805390165602916,
+        -3.5145049280787886,
+        -0.01790095702156366
+      ],
+      "distance_remaining_m": 1.8957102298736572,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021541.8146744,
+      "monotonic": 1170.313745555,
+      "sim_time": 257.169,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.60 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        0.5581481175424912,
+        -3.4984435649642336,
+        0.04427021623964427
+      ],
+      "distance_remaining_m": 1.5957088470458984,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021544.8241699,
+      "monotonic": 1173.323241091,
+      "sim_time": 258.417,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.30 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        0.846932272659447,
+        -3.4727532595724786,
+        0.12851189335007232
+      ],
+      "distance_remaining_m": 1.2957090139389038,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021547.8341837,
+      "monotonic": 1176.333254708,
+      "sim_time": 259.665,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 1.02 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        1.179638829965638,
+        -3.404521716770823,
+        0.2621102509785277
+      ],
+      "distance_remaining_m": 1.0205342769622803,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021550.8448663,
+      "monotonic": 1179.343937492,
+      "sim_time": 260.946,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.62 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        1.4778136623563811,
+        -3.3095374863342704,
+        0.4636764497251565
+      ],
+      "distance_remaining_m": 0.6207103729248047,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021553.8544786,
+      "monotonic": 1182.353549613,
+      "sim_time": 262.284,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.30 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        1.7651641806672527,
+        -3.198622308028971,
+        0.6814967619307458
+      ],
+      "distance_remaining_m": 0.29571014642715454,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021556.8643231,
+      "monotonic": 1185.363394269,
+      "sim_time": 263.586,
+      "state": "NAVIGATING",
+      "message": "Đang đến B · còn 0.21 m",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A"
+      ],
+      "index": 1,
+      "pose": [
+        1.8471549793032898,
+        -3.174928363365469,
+        0.4713024822939849
+      ],
+      "distance_remaining_m": 0.21213184297084808,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SUCCEEDED",
+      "wall_time": 1794021559.1548378,
+      "monotonic": 1187.653909566,
+      "sim_time": 264.594,
+      "state": "BETWEEN_GOALS",
+      "message": "Đã đến B.",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A",
+        "B"
+      ],
+      "index": 1,
+      "pose": [
+        1.8471549792989768,
+        -3.1749283633669823,
+        0.24905036424570381
+      ],
+      "distance_remaining_m": 0.21213184297084808,
+      "ready_reason": "",
+      "region_id": "B",
+      "error_m": 0.23229621749685722,
+      "action_status": 4
+    },
+    {
+      "event": "ROUTE_SUCCEEDED",
+      "wall_time": 1794021559.157232,
+      "monotonic": 1187.656304105,
+      "sim_time": 264.594,
+      "state": "SUCCEEDED",
+      "message": "Đã hoàn thành tuyến A → B",
+      "command": "di chuyển từ khu vực a đến khu vực bê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "A",
+        "B"
+      ],
+      "completed": [
+        "A",
+        "B"
+      ],
+      "index": 2,
+      "pose": [
+        1.8471549792989768,
+        -3.1749283633669823,
+        0.24905036424570381
+      ],
+      "distance_remaining_m": 0.21213184297084808,
+      "ready_reason": ""
+    },
+    {
+      "event": "ROUTE_ACCEPTED",
+      "wall_time": 1794021561.2964532,
+      "monotonic": 1189.795525658,
+      "sim_time": 265.56,
+      "state": "SUCCEEDED",
+      "message": "Tuyến đã xác định: C",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8492129268558057,
+        -3.1819270225215313,
+        0.27064590904233243
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SENT",
+      "wall_time": 1794021561.3009038,
+      "monotonic": 1189.799974935,
+      "sim_time": 265.56,
+      "state": "SENDING",
+      "message": "Đang đến C · Hành lang",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8492129268558057,
+        -3.1819270225215313,
+        0.27064590904233243
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": "",
+      "goal": {
+        "x": -2.0,
+        "y": 4.0,
+        "yaw": 1.5707963267948966
+      },
+      "region_id": "C"
+    },
+    {
+      "event": "GOAL_ACCEPTED",
+      "wall_time": 1794021561.3088202,
+      "monotonic": 1189.807892128,
+      "sim_time": 265.569,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · Hành lang",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8492129268558057,
+        -3.1819270225215313,
+        0.27064590904233243
+      ],
+      "distance_remaining_m": null,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021561.3128004,
+      "monotonic": 1189.811871819,
+      "sim_time": 265.569,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 0.21 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8492129268558057,
+        -3.1819270225215313,
+        0.27064590904233243
+      ],
+      "distance_remaining_m": 0.21213184297084808,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021564.3162522,
+      "monotonic": 1192.815323305,
+      "sim_time": 266.865,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 8.62 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.9744454493886037,
+        -3.0471347854805204,
+        1.1634701653486088
+      ],
+      "distance_remaining_m": 8.620711326599121,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021567.3174496,
+      "monotonic": 1195.816520605,
+      "sim_time": 268.14,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 8.35 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        2.0238038899351114,
+        -2.7472046654833404,
+        1.7412690473144552
+      ],
+      "distance_remaining_m": 8.345710754394531,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021570.3278875,
+      "monotonic": 1198.826958818,
+      "sim_time": 269.427,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 8.02 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.954854327976146,
+        -2.382578545813379,
+        1.9922526302276458
+      ],
+      "distance_remaining_m": 8.020710945129395,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021573.3307827,
+      "monotonic": 1201.829854051,
+      "sim_time": 270.675,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 7.72 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.8119630204033397,
+        -2.1006906335327065,
+        2.0747259820254507
+      ],
+      "distance_remaining_m": 7.7207112312316895,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021576.3360891,
+      "monotonic": 1204.835160198,
+      "sim_time": 271.917,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 7.40 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.665544144252735,
+        -1.8317456230707354,
+        2.144911623067406
+      ],
+      "distance_remaining_m": 7.395710468292236,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021579.346624,
+      "monotonic": 1207.845695112,
+      "sim_time": 273.228,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 7.07 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.4775019365593378,
+        -1.5652962756003481,
+        2.279994893208094
+      ],
+      "distance_remaining_m": 7.070711135864258,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021582.3560092,
+      "monotonic": 1210.855080532,
+      "sim_time": 274.497,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 6.77 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.283312089516316,
+        -1.345675950374624,
+        2.342324283519606
+      ],
+      "distance_remaining_m": 6.770710468292236,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021585.3565943,
+      "monotonic": 1213.855665596,
+      "sim_time": 275.751,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 6.47 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        1.0825453908742664,
+        -1.13275822626753,
+        2.3942924141267787
+      ],
+      "distance_remaining_m": 6.470710754394531,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021588.356714,
+      "monotonic": 1216.855785533,
+      "sim_time": 277.008,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 6.20 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.8591872045787725,
+        -0.9311432282497573,
+        2.4006437873058357
+      ],
+      "distance_remaining_m": 6.195711135864258,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021591.3659217,
+      "monotonic": 1219.86499295,
+      "sim_time": 278.226,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 5.85 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.6184338648767551,
+        -0.7284114480227373,
+        2.4021889979054074
+      ],
+      "distance_remaining_m": 5.845710754394531,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021594.36653,
+      "monotonic": 1222.865601324,
+      "sim_time": 279.483,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 5.52 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.374813921922999,
+        -0.49971377416073104,
+        2.5078677113604426
+      ],
+      "distance_remaining_m": 5.520710468292236,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021597.3765998,
+      "monotonic": 1225.87567112,
+      "sim_time": 280.659,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 5.22 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        0.12584173715635277,
+        -0.33220294117433957,
+        2.55460824213171
+      ],
+      "distance_remaining_m": 5.220710277557373,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021600.3859985,
+      "monotonic": 1228.885069616,
+      "sim_time": 281.937,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 4.92 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.1294461829532419,
+        -0.16132545550164795,
+        2.553657857023941
+      ],
+      "distance_remaining_m": 4.920710563659668,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021603.3860776,
+      "monotonic": 1231.885148929,
+      "sim_time": 283.161,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 4.60 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.38862051717198076,
+        0.010716587826810536,
+        2.5324376485248994
+      ],
+      "distance_remaining_m": 4.595709800720215,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021606.3861358,
+      "monotonic": 1234.885207089,
+      "sim_time": 284.433,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 4.27 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.6850630939024988,
+        0.1888557173751774,
+        2.5339030759013403
+      ],
+      "distance_remaining_m": 4.270710468292236,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021609.3861537,
+      "monotonic": 1237.88522493,
+      "sim_time": 285.747,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 3.90 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -0.9885646960870699,
+        0.37493644065568577,
+        2.5127470603162325
+      ],
+      "distance_remaining_m": 3.8957107067108154,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021612.3959928,
+      "monotonic": 1240.895063997,
+      "sim_time": 287.043,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 3.60 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.2320447458953299,
+        0.5832159847913481,
+        2.3440632790198115
+      ],
+      "distance_remaining_m": 3.595710277557373,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021615.3962998,
+      "monotonic": 1243.895371086,
+      "sim_time": 288.339,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 3.20 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.4315332675215424,
+        0.855790845392042,
+        2.0170050639915282
+      ],
+      "distance_remaining_m": 3.1957104206085205,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021618.4061034,
+      "monotonic": 1246.905174403,
+      "sim_time": 289.635,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 2.87 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.540505640303106,
+        1.1753368217202358,
+        1.7401039307949584
+      ],
+      "distance_remaining_m": 2.870710849761963,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021621.416302,
+      "monotonic": 1249.915373331,
+      "sim_time": 290.931,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 2.52 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.5798705342246908,
+        1.5065404847825943,
+        1.6277302530261775
+      ],
+      "distance_remaining_m": 2.5207109451293945,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021624.4258957,
+      "monotonic": 1252.924966893,
+      "sim_time": 292.338,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 2.20 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.596938950128887,
+        1.8443529653907433,
+        1.6476582065872971
+      ],
+      "distance_remaining_m": 2.1957106590270996,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021627.4270287,
+      "monotonic": 1255.926099815,
+      "sim_time": 293.694,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 1.87 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.6402860958705776,
+        2.162845887688353,
+        1.5944052107256061
+      ],
+      "distance_remaining_m": 1.8707109689712524,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021630.435855,
+      "monotonic": 1258.934926055,
+      "sim_time": 295.059,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 1.52 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.6742786338271054,
+        2.5083691169879563,
+        1.6959246123339824
+      ],
+      "distance_remaining_m": 1.5207105875015259,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021633.439412,
+      "monotonic": 1261.938483383,
+      "sim_time": 296.025,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 1.27 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.681437599693459,
+        2.767511767233396,
+        1.7083912821261475
+      ],
+      "distance_remaining_m": 1.2707103490829468,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021636.4459074,
+      "monotonic": 1264.944978439,
+      "sim_time": 297.363,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 0.92 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.7251654341469826,
+        3.101997957685859,
+        1.736240096355674
+      ],
+      "distance_remaining_m": 0.9207109808921814,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021639.4471512,
+      "monotonic": 1267.946222303,
+      "sim_time": 298.785,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 0.57 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.7994738109843442,
+        3.446027359447713,
+        1.8047874163356337
+      ],
+      "distance_remaining_m": 0.5707113742828369,
+      "ready_reason": ""
+    },
+    {
+      "event": "FEEDBACK",
+      "wall_time": 1794021642.4566743,
+      "monotonic": 1270.955745469,
+      "sim_time": 300.162,
+      "state": "NAVIGATING",
+      "message": "Đang đến C · còn 0.30 m",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [],
+      "index": 0,
+      "pose": [
+        -1.8745947169788515,
+        3.7333693083798978,
+        1.877237759461953
+      ],
+      "distance_remaining_m": 0.2957113981246948,
+      "ready_reason": ""
+    },
+    {
+      "event": "GOAL_SUCCEEDED",
+      "wall_time": 1794021644.1261578,
+      "monotonic": 1272.625229767,
+      "sim_time": 300.939,
+      "state": "BETWEEN_GOALS",
+      "message": "Đã đến C.",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [
+        "C"
+      ],
+      "index": 0,
+      "pose": [
+        -1.8997573879684337,
+        3.786023443401977,
+        1.8157438917789992
+      ],
+      "distance_remaining_m": 0.2298039197921753,
+      "ready_reason": "",
+      "region_id": "C",
+      "error_m": 0.23629335166368526,
+      "action_status": 4
+    },
+    {
+      "event": "ROUTE_SUCCEEDED",
+      "wall_time": 1794021644.1283038,
+      "monotonic": 1272.627376481,
+      "sim_time": 300.939,
+      "state": "SUCCEEDED",
+      "message": "Đã hoàn thành tuyến C",
+      "command": "đi đến hành lang",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [
+        "C"
+      ],
+      "index": 1,
+      "pose": [
+        -1.8997573879684337,
+        3.786023443401977,
+        1.8157438917789992
+      ],
+      "distance_remaining_m": 0.2298039197921753,
+      "ready_reason": ""
+    },
+    {
+      "event": "REJECTED",
+      "wall_time": 1794021646.2705004,
+      "monotonic": 1274.769571964,
+      "sim_time": 301.95,
+      "state": "SUCCEEDED",
+      "message": "Không có khu vực “khu vuc de”. Chỉ có A, B, C và các tên đã gắn nhãn.",
+      "command": "đi đến khu vực đê",
+      "source": "SYNTHETIC_AUDIO",
+      "route": [
+        "C"
+      ],
+      "completed": [
+        "C"
+      ],
+      "index": 1,
+      "pose": [
+        -1.899757387968411,
+        3.7860234434018873,
+        1.8153657141462254
+      ],
+      "distance_remaining_m": 0.2298039197921753,
+      "ready_reason": ""
+    }
+  ],
+  "ground_truth": [
+    [
+      0.19523891099993307,
+      -1.988918215810673,
+      -2.8293795802226045
+    ],
+    [
+      0.7067139729999781,
+      -1.988921091710133,
+      -2.8293769444972785
+    ],
+    [
+      1.2130881460000182,
+      -1.988921091710133,
+      -2.8293769444972785
+    ],
+    [
+      1.726172477999853,
+      -1.988921091710133,
+      -2.8293769444972785
+    ],
+    [
+      2.2312102179998874,
+      -1.988921091710133,
+      -2.8293769444972785
+    ],
+    [
+      2.7447808059998806,
+      -1.988921091710133,
+      -2.8293769444972785
+    ],
+    [
+      3.246017083999959,
+      -1.965800743384986,
+      -2.8372893387775227
+    ],
+    [
+      3.7597913089998656,
+      -1.9168142387318148,
+      -2.858204122851104
+    ],
+    [
+      4.295094958999925,
+      -1.8645872948881888,
+      -2.8850256518688373
+    ],
+    [
+      4.801071042999865,
+      -1.816272319665919,
+      -2.913579841630609
+    ],
+    [
+      5.305132871999831,
+      -1.7770908797575342,
+      -2.9394389931721454
+    ],
+    [
+      5.854649145999929,
+      -1.7288731075753339,
+      -2.974215228242433
+    ],
+    [
+      6.38746908600001,
+      -1.6871588514680618,
+      -3.006581103300189
+    ],
+    [
+      6.908239382999909,
+      -1.6446865476993757,
+      -3.041909247254578
+    ],
+    [
+      7.4164471779999985,
+      -1.6039824680433084,
+      -3.077798066527901
+    ],
+    [
+      7.943683046999922,
+      -1.5659390312533885,
+      -3.112924101069162
+    ],
+    [
+      8.446069717,
+      -1.5251792593733096,
+      -3.151077899471625
+    ],
+    [
+      8.954173781999998,
+      -1.4862102353620086,
+      -3.187606530907551
+    ],
+    [
+      9.470600425999919,
+      -1.4461993633519905,
+      -3.2249679658822115
+    ],
+    [
+      10.000650979999818,
+      -1.4057326822695853,
+      -3.2609219611469373
+    ],
+    [
+      10.506883352999921,
+      -1.3633327999028546,
+      -3.295710006042615
+    ],
+    [
+      11.043190936999963,
+      -1.318942062761411,
+      -3.328375808122247
+    ],
+    [
+      11.556752586999892,
+      -1.272774832852373,
+      -3.359057777684377
+    ],
+    [
+      12.092154575999984,
+      -1.2250366991364183,
+      -3.38724119017246
+    ],
+    [
+      12.611998077999942,
+      -1.1758086591542438,
+      -3.4128527809674223
+    ],
+    [
+      13.134325708000006,
+      -1.1250330676160707,
+      -3.4358707877135464
+    ],
+    [
+      13.65065305600001,
+      -1.0696210485854682,
+      -3.457313361584362
+    ],
+    [
+      14.157919576999802,
+      -1.0129756149705893,
+      -3.47550960699666
+    ],
+    [
+      14.685207798999954,
+      -0.9540845008250104,
+      -3.4907278825879144
+    ],
+    [
+      15.192044427999917,
+      -0.8955547144983378,
+      -3.503087046863788
+    ],
+    [
+      15.708205030999807,
+      -0.8357277561616537,
+      -3.513000744001639
+    ],
+    [
+      16.225226421999878,
+      -0.7758611832661709,
+      -3.520712354741162
+    ],
+    [
+      16.73241023999981,
+      -0.7156084992571285,
+      -3.5262048823571424
+    ],
+    [
+      17.26792988399984,
+      -0.6559015272484409,
+      -3.529713369413627
+    ],
+    [
+      17.795541377999825,
+      -0.5958171272021379,
+      -3.532394791878793
+    ],
+    [
+      18.297417803999906,
+      -0.5407121029326211,
+      -3.5339582608328945
+    ],
+    [
+      18.80346052999994,
+      -0.4846808802657576,
+      -3.5349582626779914
+    ],
+    [
+      19.310061531999963,
+      -0.42976341090690934,
+      -3.535499152607129
+    ],
+    [
+      19.845087521999858,
+      -0.3732618472099162,
+      -3.5353504132884788
+    ],
+    [
+      20.362966375999804,
+      -0.3158995781832691,
+      -3.535003364026469
+    ],
+    [
+      20.877489866999895,
+      -0.25974091914260533,
+      -3.5350130546138545
+    ],
+    [
+      21.410856319000004,
+      -0.19927408241968012,
+      -3.5350653254044215
+    ],
+    [
+      21.9151885199999,
+      -0.14418945953904203,
+      -3.5356530448875256
+    ],
+    [
+      22.431144399999994,
+      -0.08422400107362946,
+      -3.5368198199269356
+    ],
+    [
+      22.93842076099986,
+      -0.028545024305738062,
+      -3.538378883023251
+    ],
+    [
+      23.469107463,
+      0.03158350448779114,
+      -3.539653745203547
+    ],
+    [
+      23.974583654999833,
+      0.09241468445026058,
+      -3.5406446737411477
+    ],
+    [
+      24.50044036899999,
+      0.15324754755361794,
+      -3.541518240966416
+    ],
+    [
+      25.071076280999932,
+      0.2170512129637983,
+      -3.5423139878251324
+    ],
+    [
+      25.60226250400001,
+      0.2816954164766595,
+      -3.5427961480295918
+    ],
+    [
+      26.106729734999817,
+      0.34696908948043115,
+      -3.543024408403188
+    ],
+    [
+      26.632632794999836,
+      0.3972533093200175,
+      -3.5431292397715395
+    ],
+    [
+      27.13899685499996,
+      0.4553963370263893,
+      -3.5427462467176456
+    ],
+    [
+      27.659919733999914,
+      0.5130317853675268,
+      -3.5416530808632833
+    ],
+    [
+      28.18987415299989,
+      0.5752272379616158,
+      -3.5396849937609534
+    ],
+    [
+      28.694647072999942,
+      0.6358044576765167,
+      -3.5362571870000123
+    ],
+    [
+      29.228438295999922,
+      0.6943060879656097,
+      -3.5317995314497974
+    ],
+    [
+      29.737116701999867,
+      0.754435790159563,
+      -3.5259171553263147
+    ],
+    [
+      30.267726728999833,
+      0.8139983851678404,
+      -3.520010809326157
+    ],
+    [
+      30.784125412999856,
+      0.8698244378468641,
+      -3.513967257350505
+    ],
+    [
+      31.287360405999834,
+      0.9280785353152606,
+      -3.507250511260755
+    ],
+    [
+      31.799141426000006,
+      0.9832938793799226,
+      -3.4995188233559866
+    ],
+    [
+      32.31087908199993,
+      1.041099327566121,
+      -3.4898290525996463
+    ],
+    [
+      32.811423822999814,
+      1.094537984744611,
+      -3.4794953013884826
+    ],
+    [
+      33.31196586599981,
+      1.1536275078668055,
+      -3.4666337696892326
+    ],
+    [
+      33.81554464299984,
+      1.2068922520984813,
+      -3.4535432360898137
+    ],
+    [
+      34.33535267399998,
+      1.2634752907716658,
+      -3.4381860682085215
+    ],
+    [
+      34.868493599999965,
+      1.31558706202524,
+      -3.4221368332142252
+    ],
+    [
+      35.422388346999924,
+      1.3681423001917514,
+      -3.4044632878512107
+    ],
+    [
+      35.943026766,
+      1.4240071919218111,
+      -3.3840511923725756
+    ],
+    [
+      36.48088224100002,
+      1.479620491599839,
+      -3.3620763052912
+    ],
+    [
+      36.995116843000005,
+      1.5348931226267861,
+      -3.338301981128638
+    ],
+    [
+      37.50594159499997,
+      1.5895390474251245,
+      -3.313028077954272
+    ],
+    [
+      38.02197154199985,
+      1.643229344313086,
+      -3.2858740806504607
+    ],
+    [
+      38.549813923999864,
+      1.694553484334063,
+      -3.257815464309781
+    ],
+    [
+      39.07117418299981,
+      1.7417103457379,
+      -3.2301640269922114
+    ],
+    [
+      39.60576520699988,
+      1.781115917011793,
+      -3.205213323385555
+    ],
+    [
+      40.14189554399991,
+      1.8171230707013633,
+      -3.1805501586608136
+    ],
+    [
+      40.6630842579998,
+      1.8432430534359616,
+      -3.1613255726134475
+    ],
+    [
+      41.17958010699999,
+      1.8675980454098806,
+      -3.1426184254022345
+    ],
+    [
+      41.70034941799986,
+      1.8718119988925743,
+      -3.139434509140105
+    ],
+    [
+      42.23300845499989,
+      1.8718193801240186,
+      -3.13944842282055
+    ],
+    [
+      42.737544555999875,
+      1.871823426423321,
+      -3.1394594284218553
+    ],
+    [
+      43.24201467099988,
+      1.871828216127768,
+      -3.139469759196662
+    ],
+    [
+      43.76969921099999,
+      1.8718267910465614,
+      -3.1394811242585323
+    ],
+    [
+      44.30127973899994,
+      1.871829266661772,
+      -3.139488071744913
+    ],
+    [
+      44.82484955899986,
+      1.8718314973664862,
+      -3.1394951028936755
+    ],
+    [
+      45.36606991399981,
+      1.8767184176797895,
+      -3.138033279562545
+    ],
+    [
+      45.866092152999954,
+      1.876720256577645,
+      -3.1380398382869843
+    ],
+    [
+      46.37578951899991,
+      1.8767134081401515,
+      -3.1380424191629652
+    ],
+    [
+      46.895645521999995,
+      1.8767134081401515,
+      -3.1380424191629652
+    ],
+    [
+      47.40310827899998,
+      1.8767134081401515,
+      -3.1380424191629652
+    ],
+    [
+      47.90483899899982,
+      1.8767134081401515,
+      -3.1380424191629652
+    ],
+    [
+      48.42153237499997,
+      1.8773123486018521,
+      -3.1378999794911295
+    ],
+    [
+      48.96431474799988,
+      1.8773168143002015,
+      -3.137946223199444
+    ],
+    [
+      49.46618657599993,
+      1.880271620639002,
+      -3.1385319625881754
+    ],
+    [
+      49.998236374999806,
+      1.883853818751039,
+      -3.139674793698808
+    ],
+    [
+      50.54969260799999,
+      1.885788733184383,
+      -3.1409848346105314
+    ],
+    [
+      51.07436081699984,
+      1.887904168164023,
+      -3.1430423993615695
+    ],
+    [
+      51.57871070299984,
+      1.8924197587315121,
+      -3.1501493806731324
+    ],
+    [
+      52.092216108,
+      1.9011978346760272,
+      -3.1742416222094665
+    ],
+    [
+      52.615506331999995,
+      1.9075158470741462,
+      -3.2100065706873555
+    ],
+    [
+      53.13048674999982,
+      1.9078474933894478,
+      -3.2539486844067413
+    ],
+    [
+      53.63228746799996,
+      1.9004651627028022,
+      -3.2981714656231245
+    ],
+    [
+      54.13597660300002,
+      1.8841060740601898,
+      -3.344357707722083
+    ],
+    [
+      54.681717904999914,
+      1.8615857871820025,
+      -3.384243609731328
+    ],
+    [
+      55.193076733,
+      1.8296998841815408,
+      -3.4237251013210788
+    ],
+    [
+      55.715319077000004,
+      1.793735960991462,
+      -3.4562022145112614
+    ],
+    [
+      56.256330212999956,
+      1.747829303087864,
+      -3.487600971619942
+    ],
+    [
+      56.781642363999936,
+      1.6976729023485058,
+      -3.513518374540132
+    ],
+    [
+      57.30964711499996,
+      1.6422850622420286,
+      -3.534578858570338
+    ],
+    [
+      57.829691123999964,
+      1.584664368574833,
+      -3.5511367994471303
+    ],
+    [
+      58.34136581199982,
+      1.53030580749393,
+      -3.562250801958053
+    ],
+    [
+      58.873472773,
+      1.4755990601299134,
+      -3.569984805574224
+    ],
+    [
+      59.403171738999845,
+      1.4216410620357627,
+      -3.574827109113211
+    ],
+    [
+      59.91093143299986,
+      1.366949828414985,
+      -3.5778557880697734
+    ],
+    [
+      60.41412062399991,
+      1.3115144525583766,
+      -3.579703047586261
+    ],
+    [
+      60.94839393299981,
+      1.2517134501058413,
+      -3.5800192011725387
+    ],
+    [
+      61.474540857999955,
+      1.186861084814566,
+      -3.5791579925157064
+    ],
+    [
+      61.99898394599995,
+      1.126360849254687,
+      -3.577974934468982
+    ],
+    [
+      62.55149056999994,
+      1.0665604145672933,
+      -3.5768645354869335
+    ],
+    [
+      63.063479415999836,
+      1.0060589647235132,
+      -3.575717803922892
+    ],
+    [
+      63.606939110999974,
+      0.9552910164636469,
+      -3.5746800905750047
+    ],
+    [
+      64.13582552599996,
+      0.899791504931201,
+      -3.573646522196765
+    ],
+    [
+      64.64372648099993,
+      0.8495297806234218,
+      -3.5734078317512052
+    ],
+    [
+      65.18214526299994,
+      0.7952391632569278,
+      -3.573858212543553
+    ],
+    [
+      65.68642813199995,
+      0.739630064299347,
+      -3.5749330185752317
+    ],
+    [
+      66.21955621999996,
+      0.6802892751139253,
+      -3.5760581712448336
+    ],
+    [
+      66.7842071309999,
+      0.6251629078283473,
+      -3.576523028006551
+    ],
+    [
+      67.31395230199996,
+      0.5680069949570558,
+      -3.5763777061077002
+    ],
+    [
+      67.83590027899982,
+      0.5129279854304525,
+      -3.5759524835827436
+    ],
+    [
+      68.34221030999993,
+      0.45279222516358175,
+      -3.575462400993144
+    ],
+    [
+      68.85807917199986,
+      0.3980392632981009,
+      -3.5747527816860565
+    ],
+    [
+      69.39301920499997,
+      0.3335698050924922,
+      -3.5731849707883008
+    ],
+    [
+      69.90462918999992,
+      0.2738009197310692,
+      -3.5710094993213617
+    ],
+    [
+      70.4391684499999,
+      0.2141025587655763,
+      -3.56814062547566
+    ],
+    [
+      70.9625375019998,
+      0.15399643597031426,
+      -3.5650183310283126
+    ],
+    [
+      71.47979503900001,
+      0.09822508108065962,
+      -3.5617486245392955
+    ],
+    [
+      72.01801627499981,
+      0.038562492593821565,
+      -3.5575818359710385
+    ],
+    [
+      72.55494587999988,
+      -0.026073734509834173,
+      -3.5526872542584615
+    ],
+    [
+      73.08838670299997,
+      -0.08571864889334214,
+      -3.5481972863982367
+    ],
+    [
+      73.62541093699997,
+      -0.145363563621189,
+      -3.5437073231388134
+    ],
+    [
+      74.14701066899988,
+      -0.20034168366760652,
+      -3.539568671991816
+    ],
+    [
+      74.66343218999987,
+      -0.2599650989209948,
+      -3.534876115693973
+    ],
+    [
+      75.17647841199982,
+      -0.3219381196516245,
+      -3.529336211585014
+    ],
+    [
+      75.68098238799985,
+      -0.3764595807955563,
+      -3.5238324688076115
+    ],
+    [
+      76.21312644099999,
+      -0.43539684625327824,
+      -3.517563772731444
+    ],
+    [
+      76.72526792299982,
+      -0.49532350887837373,
+      -3.512035026008742
+    ],
+    [
+      77.26258680699993,
+      -0.5552650240989918,
+      -3.507077585472078
+    ],
+    [
+      77.79002202999982,
+      -0.6134524379720061,
+      -3.50278488787339
+    ],
+    [
+      78.30785174699986,
+      -0.6687434231122016,
+      -3.499314694633741
+    ],
+    [
+      78.85371054199982,
+      -0.7294559208624846,
+      -3.495843199325606
+    ],
+    [
+      79.36708471899988,
+      -0.7902405199138463,
+      -3.4933474680243726
+    ],
+    [
+      79.90252952899982,
+      -0.8507045868785068,
+      -3.491266069712796
+    ],
+    [
+      80.40812046699989,
+      -0.9112315058889647,
+      -3.48932451105308
+    ],
+    [
+      80.94693950399983,
+      -0.966593923493919,
+      -3.486946959668706
+    ],
+    [
+      81.50212964699995,
+      -1.026477520792067,
+      -3.482843625162542
+    ],
+    [
+      82.01716862599983,
+      -1.0862910551356537,
+      -3.4779570238204665
+    ],
+    [
+      82.54772106399992,
+      -1.141592946914876,
+      -3.4723746024238444
+    ],
+    [
+      83.075908346,
+      -1.1963038630938299,
+      -3.464852879113119
+    ],
+    [
+      83.60866193099992,
+      -1.2555688035774597,
+      -3.454457968319621
+    ],
+    [
+      84.12816264899993,
+      -1.3149857347216438,
+      -3.4414776535892155
+    ],
+    [
+      84.65607661299987,
+      -1.373771705918942,
+      -3.425900444967098
+    ],
+    [
+      85.17847121699992,
+      -1.4309018947922458,
+      -3.408178630667595
+    ],
+    [
+      85.68483611299985,
+      -1.487402939180883,
+      -3.388465234546876
+    ],
+    [
+      86.19901659399989,
+      -1.5440550787927318,
+      -3.3665186002258065
+    ],
+    [
+      86.71026696199988,
+      -1.5999186275532362,
+      -3.342968496761203
+    ],
+    [
+      87.21161580699982,
+      -1.6546964315831414,
+      -3.318489264462902
+    ],
+    [
+      87.75581941899986,
+      -1.7045677648552284,
+      -3.2952425234665874
+    ],
+    [
+      88.263635862,
+      -1.7544395058639024,
+      -3.2712620656570435
+    ],
+    [
+      88.79385090999995,
+      -1.800323961873021,
+      -3.248392110867175
+    ],
+    [
+      89.32644764899987,
+      -1.8382891123287464,
+      -3.228560430688113
+    ],
+    [
+      89.86008273199991,
+      -1.8704044530956834,
+      -3.211307716658925
+    ],
+    [
+      90.36994210599983,
+      -1.8853933224260655,
+      -3.2029181667436815
+    ],
+    [
+      90.8711759979999,
+      -1.885368095575937,
+      -3.2028874202077025
+    ],
+    [
+      91.38024516999985,
+      -1.8853346162509164,
+      -3.202859840261893
+    ],
+    [
+      91.90853310599982,
+      -1.88529292592347,
+      -3.2028382495991776
+    ],
+    [
+      92.434710795,
+      -1.8852475318212947,
+      -3.202826282419381
+    ],
+    [
+      92.976670173,
+      -1.8852025487117137,
+      -3.2028483487752606
+    ],
+    [
+      93.49018444699982,
+      -1.885165085339663,
+      -3.2028455233495365
+    ],
+    [
+      94.02985491599998,
+      -1.8851335094888224,
+      -3.2028542122922103
+    ],
+    [
+      94.53236297499984,
+      -1.8851086918668878,
+      -3.2028667693972417
+    ],
+    [
+      95.049073916,
+      -1.8850878468798924,
+      -3.2028807907795938
+    ],
+    [
+      95.57357445699995,
+      -1.885070490623514,
+      -3.20289553190073
+    ],
+    [
+      96.08501937799997,
+      -1.8850566290982238,
+      -3.202909924659081
+    ],
+    [
+      96.62210761099982,
+      -1.8850457472532844,
+      -3.202923407700168
+    ],
+    [
+      97.15269640199995,
+      -1.8850365959054483,
+      -3.202936811554211
+    ],
+    [
+      97.67449455099995,
+      -1.8850298511159114,
+      -3.202948276550975
+    ],
+    [
+      98.21146169299982,
+      -1.885024241552703,
+      -3.2029592687741615
+    ],
+    [
+      98.72009691499989,
+      -1.8850244649922179,
+      -3.202969091560494
+    ],
+    [
+      99.26505143700001,
+      -1.8850219087885904,
+      -3.2029754023987715
+    ],
+    [
+      99.76646415300002,
+      -1.8850195580642335,
+      -3.2029817917755583
+    ],
+    [
+      100.27413880799986,
+      -1.8850240613991491,
+      -3.2029898788282125
+    ],
+    [
+      100.79409724599986,
+      -1.866953356577412,
+      -3.198374832393343
+    ],
+    [
+      101.29942558099992,
+      -1.8183456368897795,
+      -3.1913069631132656
+    ],
+    [
+      101.82012047399985,
+      -1.7634947582164038,
+      -3.1905828627775583
+    ],
+    [
+      102.33892741499994,
+      -1.708378227870745,
+      -3.1966720942407374
+    ],
+    [
+      102.86192089699989,
+      -1.6585880380646214,
+      -3.2075980282194125
+    ],
+    [
+      103.39051743499999,
+      -1.6016785634119526,
+      -3.2253849371718255
+    ],
+    [
+      103.89428252199991,
+      -1.5491448416158506,
+      -3.245176620766409
+    ],
+    [
+      104.40839719899986,
+      -1.493933438906099,
+      -3.268152857575268
+    ],
+    [
+      104.91017247399986,
+      -1.4429709824200465,
+      -3.29024302851203
+    ],
+    [
+      105.45247788799998,
+      -1.3838535796061044,
+      -3.316024623338205
+    ],
+    [
+      106.01355041299985,
+      -1.3244010069992724,
+      -3.3418478711036905
+    ],
+    [
+      106.54514379199986,
+      -1.2656657132062683,
+      -3.3667555205993627
+    ],
+    [
+      107.04841006299989,
+      -1.2145652492161725,
+      -3.387181972757022
+    ],
+    [
+      107.57719890899989,
+      -1.1579735134130609,
+      -3.4076402155397325
+    ],
+    [
+      108.10507025399988,
+      -1.1013643999313734,
+      -3.4258916248549993
+    ],
+    [
+      108.61930183999993,
+      -1.0438355036574538,
+      -3.4422417596485433
+    ],
+    [
+      109.14346934799983,
+      -0.9899722944026318,
+      -3.455610413382192
+    ],
+    [
+      109.68727986499994,
+      -0.9357053376377138,
+      -3.467232494391497
+    ],
+    [
+      110.203963036,
+      -0.8768649882564081,
+      -3.477943118453429
+    ],
+    [
+      110.72376630199983,
+      -0.8221394617878443,
+      -3.4869503214326585
+    ],
+    [
+      111.235555664,
+      -0.7629640273907624,
+      -3.495751599981467
+    ],
+    [
+      111.756650004,
+      -0.7036155628173903,
+      -3.5035173005837605
+    ],
+    [
+      112.2992333499999,
+      -0.6392444416702966,
+      -3.5111465635461006
+    ],
+    [
+      112.81610194999985,
+      -0.5798068601808,
+      -3.5174627838594765
+    ],
+    [
+      113.348115086,
+      -0.5206267129260559,
+      -3.523055143235518
+    ],
+    [
+      113.89970856599984,
+      -0.4559823101070381,
+      -3.528370589567235
+    ],
+    [
+      114.41306720299985,
+      -0.39631534967687293,
+      -3.532549918923787
+    ],
+    [
+      114.91314075599985,
+      -0.34562252815695604,
+      -3.5355529488835624
+    ],
+    [
+      115.42867027299985,
+      -0.287717083026276,
+      -3.538360469797515
+    ],
+    [
+      115.96274812799993,
+      -0.22367213561936866,
+      -3.540681956098128
+    ],
+    [
+      116.49237159799986,
+      -0.16159898264327746,
+      -3.542200072628873
+    ],
+    [
+      117.01487515399981,
+      -0.10181668484470498,
+      -3.543970981205912
+    ],
+    [
+      117.56127066499994,
+      -0.042058082512103946,
+      -3.5464089690746925
+    ],
+    [
+      118.084084932,
+      0.01801308125938877,
+      -3.5492906146765186
+    ],
+    [
+      118.63212086099998,
+      0.07778057405880383,
+      -3.551626025744253
+    ],
+    [
+      119.13664655000002,
+      0.1375640778719748,
+      -3.5533531051514142
+    ],
+    [
+      119.66979619499989,
+      0.2023569837477828,
+      -3.555255227645706
+    ],
+    [
+      120.19700331099989,
+      0.2664612467996677,
+      -3.556628984690209
+    ],
+    [
+      120.71751574999985,
+      0.3309248876720298,
+      -3.5585638963412
+    ],
+    [
+      121.21939114599991,
+      0.3903660516538194,
+      -3.5608532991974604
+    ],
+    [
+      121.72157864499991,
+      0.45078333348041383,
+      -3.5621915209101505
+    ],
+    [
+      122.23360723499991,
+      0.5062430757710507,
+      -3.5626081808042205
+    ],
+    [
+      122.73813205599981,
+      0.5564086260339322,
+      -3.5624707913930505
+    ],
+    [
+      123.273412065,
+      0.6043328033051922,
+      -3.5619535293940534
+    ],
+    [
+      123.779864847,
+      0.6538800252135862,
+      -3.561070968873027
+    ],
+    [
+      124.33741735399985,
+      0.7089036553163138,
+      -3.558367736164524
+    ],
+    [
+      124.85399118299983,
+      0.7686263298219895,
+      -3.555208783034758
+    ],
+    [
+      125.35524063999992,
+      0.823875331388855,
+      -3.5508996003592124
+    ],
+    [
+      125.88848207599995,
+      0.8837922015431692,
+      -3.545264533166105
+    ],
+    [
+      126.40682958499997,
+      0.9340040205836457,
+      -3.540330302865921
+    ],
+    [
+      126.97530697599996,
+      0.9892002516847502,
+      -3.5349062663442123
+    ],
+    [
+      127.497332487,
+      1.0450618615566247,
+      -3.5291975272654734
+    ],
+    [
+      128.03244789399992,
+      1.100110008882581,
+      -3.52279045759506
+    ],
+    [
+      128.55731948999983,
+      1.1554399443235224,
+      -3.515455537679568
+    ],
+    [
+      129.07536437099998,
+      1.2150453311403777,
+      -3.505589194340315
+    ],
+    [
+      129.5850312949999,
+      1.269494750323145,
+      -3.494800303135426
+    ],
+    [
+      130.09334200199987,
+      1.3283491340421667,
+      -3.481108470362175
+    ],
+    [
+      130.62700252599984,
+      1.3822792864167335,
+      -3.466892038467437
+    ],
+    [
+      131.16011449099983,
+      1.4352854152152468,
+      -3.4505189408547046
+    ],
+    [
+      131.67331698399994,
+      1.4881956243542507,
+      -3.431704710702352
+    ],
+    [
+      132.2265870719998,
+      1.5440829135694878,
+      -3.4090694041224974
+    ],
+    [
+      132.72956783799987,
+      1.5986372112825773,
+      -3.3849791943214607
+    ],
+    [
+      133.2458123429999,
+      1.652024884558605,
+      -3.3594590973128757
+    ],
+    [
+      133.76139232299988,
+      1.7038477187219607,
+      -3.3315839501139144
+    ],
+    [
+      134.29350573299985,
+      1.7533428667345323,
+      -3.3018117952368717
+    ],
+    [
+      134.79896181200002,
+      1.79326027714208,
+      -3.2749140066892948
+    ],
+    [
+      135.34112087199992,
+      1.8294109392505338,
+      -3.248105201351719
+    ],
+    [
+      135.84575547299983,
+      1.8567517163436498,
+      -3.2262795489298837
+    ],
+    [
+      136.38220209099995,
+      1.882015395711393,
+      -3.2048362166453743
+    ],
+    [
+      136.888337698,
+      1.8986925761880165,
+      -3.189940041347035
+    ],
+    [
+      137.41205832699984,
+      1.8992305282771353,
+      -3.1894984167784712
+    ],
+    [
+      137.92566384299994,
+      1.89923949300569,
+      -3.189511656197893
+    ],
+    [
+      138.45543709100002,
+      1.8992454213625947,
+      -3.189523971359554
+    ],
+    [
+      138.9757583999999,
+      1.899250557786933,
+      -3.1895341387655813
+    ],
+    [
+      139.50130941099997,
+      1.8992554976863867,
+      -3.189545440027001
+    ],
+    [
+      140.01492403899988,
+      1.8992528190638192,
+      -3.1895576260480425
+    ],
+    [
+      140.53385096599982,
+      1.8992551072322832,
+      -3.1895646382957716
+    ],
+    [
+      141.07804569999985,
+      1.8992495214856613,
+      -3.189570677677962
+    ],
+    [
+      141.5857467599999,
+      1.8992495214856613,
+      -3.189570677677962
+    ],
+    [
+      142.09493578399997,
+      1.8992495214856613,
+      -3.189570677677962
+    ],
+    [
+      142.6240556409998,
+      1.8992495214856613,
+      -3.189570677677962
+    ],
+    [
+      143.16087577099984,
+      1.8999913402393878,
+      -3.1893551072322723
+    ],
+    [
+      143.666971547,
+      1.9085481807088336,
+      -3.1859566381872244
+    ],
+    [
+      144.20743882599982,
+      1.9410442337692864,
+      -3.165169853593885
+    ],
+    [
+      144.70840998699987,
+      1.973881036000522,
+      -3.135584835772513
+    ],
+    [
+      145.21644973499997,
+      2.004553532308686,
+      -3.096105046096415
+    ],
+    [
+      145.742011629,
+      2.0278357863467678,
+      -3.053823719314722
+    ],
+    [
+      146.25277799899982,
+      2.046578626538689,
+      -3.0032292199263093
+    ],
+    [
+      146.76107498099987,
+      2.0578217032146533,
+      -2.956813338306018
+    ],
+    [
+      147.28307874099983,
+      2.0653144116144215,
+      -2.9040741196210553
+    ],
+    [
+      147.78919004699992,
+      2.0677501660650845,
+      -2.849671688252133
+    ],
+    [
+      148.313180182,
+      2.065350228953187,
+      -2.7900967581550953
+    ],
+    [
+      148.83175366399996,
+      2.059160762583194,
+      -2.734859169796052
+    ],
+    [
+      149.36863628499987,
+      2.048468666440745,
+      -2.6761734940644386
+    ],
+    [
+      149.900153886,
+      2.0346631525424614,
+      -2.6182966328278767
+    ],
+    [
+      150.414898966,
+      2.019260476569068,
+      -2.5656821014157987
+    ],
+    [
+      150.94988238299993,
+      2.0000943243136127,
+      -2.5093939478900986
+    ],
+    [
+      151.45812974499995,
+      1.9800636354052348,
+      -2.458039342528423
+    ],
+    [
+      151.96610949299998,
+      1.9586884919073608,
+      -2.406860719388665
+    ],
+    [
+      152.50714295900002,
+      1.9344051490542387,
+      -2.3529150092716953
+    ],
+    [
+      153.0658755999998,
+      1.909715941468609,
+      -2.2991733903738507
+    ],
+    [
+      153.56638266999994,
+      1.8860073175974303,
+      -2.24867592122845
+    ],
+    [
+      154.1108427319998,
+      1.862483602132426,
+      -2.1991822325169634
+    ],
+    [
+      154.62956827899984,
+      1.8379873781516434,
+      -2.149012249403919
+    ],
+    [
+      155.17862955199985,
+      1.8127363345163978,
+      -2.0996431632067964
+    ],
+    [
+      155.70786553899984,
+      1.7849538939908056,
+      -2.047553630638881
+    ],
+    [
+      156.2564626179999,
+      1.755423209097786,
+      -1.9950807145755367
+    ],
+    [
+      156.8305927629999,
+      1.7318368803162654,
+      -1.955098179841203
+    ],
+    [
+      157.34930425099992,
+      1.700573650488824,
+      -1.90363380397532
+    ],
+    [
+      157.85044151599982,
+      1.6712552917983505,
+      -1.8572820338190557
+    ],
+    [
+      158.3702922939999,
+      1.6380657467435709,
+      -1.806400921110587
+    ],
+    [
+      158.88379208899983,
+      1.6073021393176075,
+      -1.76062552159262
+    ],
+    [
+      159.3913193689998,
+      1.5763354244967342,
+      -1.7165403721411723
+    ],
+    [
+      159.89247952799997,
+      1.5405753502522725,
+      -1.667663657347904
+    ],
+    [
+      160.40470166199998,
+      1.5069252817625234,
+      -1.6242856792724523
+    ],
+    [
+      160.94247966399985,
+      1.4701606863856767,
+      -1.578450957999526
+    ],
+    [
+      161.47217554299982,
+      1.431626421471538,
+      -1.531861384835248
+    ],
+    [
+      161.98042930099996,
+      1.3979738259050767,
+      -1.4929201539907402
+    ],
+    [
+      162.50772234199985,
+      1.3582567568661896,
+      -1.4484142296715452
+    ],
+    [
+      163.0430200039998,
+      1.3236701729875675,
+      -1.4105200012483243
+    ],
+    [
+      163.56974997899988,
+      1.282188392883334,
+      -1.3669340147821996
+    ],
+    [
+      164.09230441299997,
+      1.2406546544666386,
+      -1.3243562943994558
+    ],
+    [
+      164.631270933,
+      1.1971011938213034,
+      -1.2818892065524805
+    ],
+    [
+      165.16596667299996,
+      1.1570175484672147,
+      -1.2436303992712658
+    ],
+    [
+      165.73835563299986,
+      1.1131152949009007,
+      -1.2025364866459016
+    ],
+    [
+      166.24035269499996,
+      1.0720482376088378,
+      -1.1647213476679756
+    ],
+    [
+      166.780649822,
+      1.031061798314208,
+      -1.127307413652977
+    ],
+    [
+      167.28278248999982,
+      0.9903019603059307,
+      -1.090121660195985
+    ],
+    [
+      167.80396531199995,
+      0.9494088579115718,
+      -1.052661723913221
+    ],
+    [
+      168.3315292709999,
+      0.9047833075678534,
+      -1.0123389599023385
+    ],
+    [
+      168.85747992799998,
+      0.8636121407617867,
+      -0.9751195405117286
+    ],
+    [
+      169.38052611499984,
+      0.8184661652076305,
+      -0.9343373920227259
+    ],
+    [
+      169.89736736399982,
+      0.777154224231566,
+      -0.8973273393242788
+    ],
+    [
+      170.4252751429999,
+      0.7360387586618856,
+      -0.8606657232003473
+    ],
+    [
+      170.96216112399998,
+      0.701055553606404,
+      -0.8295800695262041
+    ],
+    [
+      171.49827471100002,
+      0.6590680463358909,
+      -0.792285998693017
+    ],
+    [
+      172.04613247499992,
+      0.6173668431369178,
+      -0.75528771848506
+    ],
+    [
+      172.56825744499997,
+      0.5727294851436036,
+      -0.7156586605928148
+    ],
+    [
+      173.1021307399999,
+      0.5309725272331293,
+      -0.6784249399580837
+    ],
+    [
+      173.6449290999999,
+      0.4847772233398713,
+      -0.6388453915655792
+    ],
+    [
+      174.167008614,
+      0.4412448824599153,
+      -0.6033768866214599
+    ],
+    [
+      174.694725908,
+      0.39411317833267295,
+      -0.566618143472887
+    ],
+    [
+      175.22353654699987,
+      0.3499687789919649,
+      -0.5329740636810075
+    ],
+    [
+      175.7404631559998,
+      0.3048843032530369,
+      -0.5006321742006165
+    ],
+    [
+      176.27455599999985,
+      0.2592149976998671,
+      -0.46935797461711193
+    ],
+    [
+      176.81986353699995,
+      0.21278486183978967,
+      -0.4381531661349367
+    ],
+    [
+      177.36013785499995,
+      0.16694440268765928,
+      -0.4080355699821192
+    ],
+    [
+      177.89591165499996,
+      0.11994649066973574,
+      -0.3772947064959826
+    ],
+    [
+      178.42870739599994,
+      0.0772809113770361,
+      -0.34967661943995904
+    ],
+    [
+      178.9669464269998,
+      0.03467993942531334,
+      -0.3226460534384283
+    ],
+    [
+      179.47898334899992,
+      -0.008128282361849353,
+      -0.2960269454174782
+    ],
+    [
+      179.98323619899998,
+      -0.05534181051090256,
+      -0.26692542223192994
+    ],
+    [
+      180.48935644499988,
+      -0.10212473442167887,
+      -0.23830216264467702
+    ],
+    [
+      181.019604844,
+      -0.15350832669852457,
+      -0.20634330246678453
+    ],
+    [
+      181.55449895399988,
+      -0.20395320819844223,
+      -0.1748892428089527
+    ],
+    [
+      182.06249761899994,
+      -0.2511287851366911,
+      -0.14572506551944076
+    ],
+    [
+      182.57027052599983,
+      -0.2985662561068846,
+      -0.11629196266730463
+    ],
+    [
+      183.09790146499995,
+      -0.35001318509597473,
+      -0.0844365951752425
+    ],
+    [
+      183.6201058869999,
+      -0.39376527249562465,
+      -0.05731062333218871
+    ],
+    [
+      184.14108569099994,
+      -0.44026067974647215,
+      -0.028384395535467764
+    ],
+    [
+      184.6566186099999,
+      -0.48774579306058813,
+      0.001554824634662733
+    ],
+    [
+      185.1829724119998,
+      -0.5300413436219417,
+      0.02849380928484267
+    ],
+    [
+      185.68522042099994,
+      -0.5763851595869691,
+      0.0583500029374959
+    ],
+    [
+      186.22064103000002,
+      -0.6267749348315492,
+      0.09131581896739244
+    ],
+    [
+      186.734487984,
+      -0.6689161537406387,
+      0.11906448934305001
+    ],
+    [
+      187.269226483,
+      -0.7189773341190777,
+      0.152471365727142
+    ],
+    [
+      187.79566233399987,
+      -0.7650275496647785,
+      0.18336630976104532
+    ],
+    [
+      188.31568141599996,
+      -0.8149784205687473,
+      0.21626722311740132
+    ],
+    [
+      188.82937801899993,
+      -0.861175774293946,
+      0.24628680816453552
+    ],
+    [
+      189.376883636,
+      -0.9118945280615485,
+      0.27987000242142124
+    ],
+    [
+      189.902776486,
+      -0.9616914109434189,
+      0.3138162882099596
+    ],
+    [
+      190.40632474899985,
+      -1.007333275638961,
+      0.346234054398105
+    ],
+    [
+      190.9281942319999,
+      -1.0545952566186594,
+      0.38020327093805795
+    ],
+    [
+      191.4599045529999,
+      -1.1034505769802778,
+      0.41643191142785035
+    ],
+    [
+      191.98190778999992,
+      -1.1512641079169756,
+      0.4529781203053073
+    ],
+    [
+      192.48849585799985,
+      -1.1982724100733717,
+      0.4902942181059076
+    ],
+    [
+      193.02401692099988,
+      -1.2406187849502093,
+      0.5264532899628128
+    ],
+    [
+      193.559838162,
+      -1.2844339219827534,
+      0.5666548757118424
+    ],
+    [
+      194.09320605099992,
+      -1.3233546117843138,
+      0.6055820560153438
+    ],
+    [
+      194.59844399199983,
+      -1.3604297421237683,
+      0.6463861511977316
+    ],
+    [
+      195.12528396999983,
+      -1.395905882733385,
+      0.6893396320128629
+    ],
+    [
+      195.65913898099984,
+      -1.4312866511207691,
+      0.7374726422241978
+    ],
+    [
+      196.16532610299987,
+      -1.4612449887641183,
+      0.7845243110255112
+    ],
+    [
+      196.717402129,
+      -1.4902670253072987,
+      0.8367753554061267
+    ],
+    [
+      197.22023307899985,
+      -1.5163510549055728,
+      0.8909167925425194
+    ],
+    [
+      197.7529173569999,
+      -1.5375738700969563,
+      0.9421118376114146
+    ],
+    [
+      198.2738016589999,
+      -1.558741842564016,
+      1.0029605955010708
+    ],
+    [
+      198.77601890099982,
+      -1.5737852973223347,
+      1.0559844452531904
+    ],
+    [
+      199.27750992099982,
+      -1.5863510200988808,
+      1.1100402414534574
+    ],
+    [
+      199.81548051599998,
+      -1.59712345973761,
+      1.1641110577548446
+    ],
+    [
+      200.3743945289998,
+      -1.6078360493403436,
+      1.2239987398202021
+    ],
+    [
+      200.90147030699995,
+      -1.6167751213618435,
+      1.2834703719693497
+    ],
+    [
+      201.41403395499992,
+      -1.6236475152160479,
+      1.3384576762474052
+    ],
+    [
+      201.93874862999996,
+      -1.6298664574288702,
+      1.3982755710868873
+    ],
+    [
+      202.467050234,
+      -1.6348144653477557,
+      1.4582918814380872
+    ],
+    [
+      202.98426741599997,
+      -1.6386581237587523,
+      1.5136607693678856
+    ],
+    [
+      203.50283123299982,
+      -1.6428047006526696,
+      1.573659748332709
+    ],
+    [
+      204.0301006499999,
+      -1.6469031747104526,
+      1.6337024016866883
+    ],
+    [
+      204.5336358779998,
+      -1.652007120499663,
+      1.6983272799506017
+    ],
+    [
+      205.05033772399997,
+      -1.6571494011500503,
+      1.7579179086306964
+    ],
+    [
+      205.57532640699992,
+      -1.6629041371968218,
+      1.8228954129194523
+    ],
+    [
+      206.117146242,
+      -1.668237381583887,
+      1.887467154441938
+    ],
+    [
+      206.65495455999985,
+      -1.6723337245441448,
+      1.9521994443722868
+    ],
+    [
+      207.1606147079999,
+      -1.6751550774329727,
+      2.0119255974122905
+    ],
+    [
+      207.7052723029999,
+      -1.676755061431047,
+      2.0717158646394402
+    ],
+    [
+      208.215161502,
+      -1.6776647149596922,
+      2.1318865732523875
+    ],
+    [
+      208.74328626800002,
+      -1.6778734806371516,
+      2.1915336172878344
+    ],
+    [
+      209.2488323189998,
+      -1.6780051651561243,
+      2.2515021665752055
+    ],
+    [
+      209.7811022379999,
+      -1.6790497224363028,
+      2.3116342543921204
+    ],
+    [
+      210.30890517199987,
+      -1.6809458456932416,
+      2.37140529225605
+    ],
+    [
+      210.80911647499988,
+      -1.6838227142774498,
+      2.4311866852734454
+    ],
+    [
+      211.34231759099998,
+      -1.6885995888335301,
+      2.4958247427260667
+    ],
+    [
+      211.84515017499984,
+      -1.6933171120843924,
+      2.5514566428386223
+    ],
+    [
+      212.36046890499983,
+      -1.6984011107595987,
+      2.6067668600739613
+    ],
+    [
+      212.89006320499993,
+      -1.703674620944781,
+      2.6626775387835337
+    ],
+    [
+      213.40256801399983,
+      -1.7101035794201487,
+      2.722392963517992
+    ],
+    [
+      214.00628971499987,
+      -1.7132783314252769,
+      2.7499952727256756
+    ],
+    [
+      214.50892688099998,
+      -1.7175128006235505,
+      2.786491438824524
+    ],
+    [
+      215.0353938459998,
+      -1.721959252057604,
+      2.82366311468003
+    ],
+    [
+      215.55978438099987,
+      -1.7290549091312835,
+      2.879023795544786
+    ],
+    [
+      216.070308717,
+      -1.7368458816704875,
+      2.9343076583257592
+    ],
+    [
+      216.5958799729999,
+      -1.745244307853872,
+      2.9891228444116504
+    ],
+    [
+      217.1081843999998,
+      -1.753959610902357,
+      3.0438943729587367
+    ],
+    [
+      217.62502735399994,
+      -1.7643794460197901,
+      3.107536457473194
+    ],
+    [
+      218.12607225800002,
+      -1.7753013975891412,
+      3.171431038123207
+    ],
+    [
+      218.6542191829999,
+      -1.7865907796254625,
+      3.2352611434048617
+    ],
+    [
+      219.16145346899998,
+      -1.797400171907119,
+      3.2940901215914002
+    ],
+    [
+      219.6993978139999,
+      -1.8094680372255911,
+      3.357439336051045
+    ],
+    [
+      220.21660908399986,
+      -1.8220681716021172,
+      3.4217347674146446
+    ],
+    [
+      220.75791644299989,
+      -1.8350729587724495,
+      3.4850763213306943
+    ],
+    [
+      221.27623920099995,
+      -1.8489395130403394,
+      3.5473592645099785
+    ],
+    [
+      221.79798646799986,
+      -1.863480414103034,
+      3.607588493350892
+    ],
+    [
+      222.32688012799986,
+      -1.8789087701001708,
+      3.6671989999143455
+    ],
+    [
+      222.84406542499983,
+      -1.891650244269394,
+      3.7134738636057603
+    ],
+    [
+      223.38467108399982,
+      -1.9049611720888624,
+      3.7596778109665254
+    ],
+    [
+      223.91923030399994,
+      -1.9159175044688614,
+      3.796047411351561
+    ],
+    [
+      224.4435094439998,
+      -1.9257700892527632,
+      3.82755130823908
+    ],
+    [
+      224.99117192099993,
+      -1.933397892116152,
+      3.8514496409235144
+    ],
+    [
+      225.5045279399999,
+      -1.933449925651353,
+      3.8516478571812542
+    ],
+    [
+      226.00472474999992,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      226.51377416899982,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      227.02693559399995,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      227.5495108309999,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      228.09401068599982,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      228.62313230799987,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      229.1454454799998,
+      -1.9334444733977583,
+      3.851641608000664
+    ],
+    [
+      229.65624556499984,
+      -1.9334444733977583,
+      3.851641608000664
+    ]
+  ],
+  "hazards": [],
+  "all_succeeded": true,
+  "duration_wall_s": 229.93940000199996
+}

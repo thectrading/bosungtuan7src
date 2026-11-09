@@ -1,0 +1,33 @@
+[INFO] [1794021889.089895071] [voice_navigator]: {"event": "START", "message": "Chờ lệnh tiếng Việt."}
+test_aborted_first_goal_stops_remaining_route (__main__.ActionFlowTests) ... [INFO] [1794021889.096661012] [voice_navigator]: {"event": "ROUTE_ACCEPTED", "message": "Tuyến đã xác định: A → B"}
+[INFO] [1794021889.097744645] [voice_navigator]: {"event": "GOAL_SENT", "message": "Đang đến A · Phòng học", "goal": {"x": -2.0, "y": -3.0, "yaw": 0.0}, "region_id": "A"}
+[INFO] [1794021889.106411397] [voice_navigator]: {"event": "GOAL_ACCEPTED", "message": "Đang đến A · Phòng học"}
+[INFO] [1794021889.206414054] [voice_navigator]: {"event": "GOAL_FAILED", "message": "Nav2 không đến được đích; không gửi các chặng sau.", "action_status": 6}
+ok
+test_cancel_before_acceptance_cancels_late_handle (__main__.ActionFlowTests) ... [INFO] [1794021889.224753748] [voice_navigator]: {"event": "ROUTE_ACCEPTED", "message": "Tuyến đã xác định: A → B"}
+[INFO] [1794021889.225620379] [voice_navigator]: {"event": "GOAL_SENT", "message": "Đang đến A · Phòng học", "goal": {"x": -2.0, "y": -3.0, "yaw": 0.0}, "region_id": "A"}
+[INFO] [1794021889.248913075] [voice_navigator]: {"event": "CANCEL_REQUESTED", "message": "Người dùng yêu cầu dừng."}
+[INFO] [1794021889.856909125] [voice_navigator]: {"event": "CANCELED", "message": "Đã hủy goal và phần còn lại của tuyến.", "action_status": 5}
+ok
+test_low_confidence_microphone_sends_no_goal (__main__.ActionFlowTests) ... [INFO] [1794021889.878141698] [voice_navigator]: {"event": "REJECTED", "message": "Giọng nói chưa đủ tin cậy; chưa gửi đích.", "rejected_text": "Đi đến A"}
+ok
+test_ordered_source_then_destination_even_when_elsewhere (__main__.ActionFlowTests) ... [INFO] [1794021889.885155059] [voice_navigator]: {"event": "ROUTE_ACCEPTED", "message": "Tuyến đã xác định: A → B"}
+[INFO] [1794021889.886937239] [voice_navigator]: {"event": "GOAL_SENT", "message": "Đang đến A · Phòng học", "goal": {"x": -2.0, "y": -3.0, "yaw": 0.0}, "region_id": "A"}
+[INFO] [1794021889.895540341] [voice_navigator]: {"event": "GOAL_ACCEPTED", "message": "Đang đến A · Phòng học"}
+[INFO] [1794021889.995731918] [voice_navigator]: {"event": "GOAL_SUCCEEDED", "message": "Đã đến A.", "region_id": "A", "error_m": 0.0, "action_status": 4}
+[INFO] [1794021889.996602154] [voice_navigator]: {"event": "GOAL_SENT", "message": "Đang đến B · Phòng thí nghiệm", "goal": {"x": 2.0, "y": -3.0, "yaw": 0.0}, "region_id": "B"}
+[INFO] [1794021890.006265255] [voice_navigator]: {"event": "GOAL_ACCEPTED", "message": "Đang đến B · Phòng thí nghiệm"}
+[INFO] [1794021890.107877881] [voice_navigator]: {"event": "GOAL_SUCCEEDED", "message": "Đã đến B.", "region_id": "B", "error_m": 0.0, "action_status": 4}
+[INFO] [1794021890.109259387] [voice_navigator]: {"event": "ROUTE_SUCCEEDED", "message": "Đã hoàn thành tuyến A → B"}
+ok
+test_rejected_first_goal_stops_remaining_route (__main__.ActionFlowTests) ... [INFO] [1794021890.113710293] [voice_navigator]: {"event": "ROUTE_ACCEPTED", "message": "Tuyến đã xác định: A → B"}
+[INFO] [1794021890.114845536] [voice_navigator]: {"event": "GOAL_SENT", "message": "Đang đến A · Phòng học", "goal": {"x": -2.0, "y": -3.0, "yaw": 0.0}, "region_id": "A"}
+[INFO] [1794021890.120202100] [voice_navigator]: {"event": "GOAL_REJECTED", "message": "Nav2 từ chối đích; dừng cả tuyến."}
+ok
+test_unknown_route_has_zero_goals (__main__.ActionFlowTests) ... [INFO] [1794021890.143083066] [voice_navigator]: {"event": "REJECTED", "message": "Không có khu vực “z”. Chỉ có A, B, C và các tên đã gắn nhãn."}
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.250s
+
+OK

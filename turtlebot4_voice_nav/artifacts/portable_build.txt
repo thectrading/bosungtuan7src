@@ -1,0 +1,6 @@
+Starting >>> turtlebot4_slam_nav
+Finished <<< turtlebot4_slam_nav [0.18s]
+Starting >>> turtlebot4_voice_nav
+Finished <<< turtlebot4_voice_nav [2.68s]
+
+Summary: 2 packages finished [3.51s]

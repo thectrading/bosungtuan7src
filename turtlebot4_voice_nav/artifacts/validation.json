@@ -1,0 +1,19 @@
+{
+  "real_nav2_routes_succeeded": 4,
+  "real_nav2_goals_succeeded": 5,
+  "unknown_region_rejected": true,
+  "source_then_destination_order_verified": true,
+  "audio_source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+  "arrival_errors_m": [
+    0.23739203773726922,
+    0.23185443191536853,
+    0.18010137399453569,
+    0.23229621749685722,
+    0.23629335166368526
+  ],
+  "max_arrival_error_m": 0.23739203773726922,
+  "hazard_counts": {},
+  "sampled_ground_truth_points": 440,
+  "min_sampled_center_to_maze_wall_m": 0.4199807988274613,
+  "method": "Action status 4 + TF errors, sampled read-only Gazebo ground truth and driver hazards; not continuous collision proof or human speech accuracy."
+}

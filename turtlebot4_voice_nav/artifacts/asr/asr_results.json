@@ -1,0 +1,69 @@
+[
+  {
+    "source": "SYNTHETIC_ESPEAK_AUDIO",
+    "audio": "command_1.wav",
+    "spoken": "đi đến khu vực a",
+    "transcript": "chuyển khu vực bê",
+    "confidence": 0.723884,
+    "kind": "INVALID",
+    "route": [],
+    "expected_route": [
+      "A"
+    ],
+    "passed": false
+  },
+  {
+    "source": "SYNTHETIC_ESPEAK_AUDIO",
+    "audio": "command_2.wav",
+    "spoken": "di chuyển từ khu vực a đến khu vực bê",
+    "transcript": "di chuyển từ khu vực bê đến khu vực xê",
+    "confidence": 0.9159827,
+    "kind": "NAVIGATE",
+    "route": [
+      "B",
+      "C"
+    ],
+    "expected_route": [
+      "A",
+      "B"
+    ],
+    "passed": false
+  },
+  {
+    "source": "SYNTHETIC_ESPEAK_AUDIO",
+    "audio": "command_3.wav",
+    "spoken": "đi đến phòng thí nghiệm",
+    "transcript": "nghiệm chuyển d",
+    "confidence": 0.487433,
+    "kind": "INVALID",
+    "route": [],
+    "expected_route": [
+      "B"
+    ],
+    "passed": false
+  },
+  {
+    "source": "SYNTHETIC_ESPEAK_AUDIO",
+    "audio": "command_4.wav",
+    "spoken": "đi đến hành lang",
+    "transcript": "dừng lại",
+    "confidence": 0.44398649999999995,
+    "kind": "CANCEL",
+    "route": [],
+    "expected_route": [
+      "C"
+    ],
+    "passed": false
+  },
+  {
+    "source": "SYNTHETIC_ESPEAK_AUDIO",
+    "audio": "command_5.wav",
+    "spoken": "đi đến khu vực z",
+    "transcript": "nghiệm khu vực xê",
+    "confidence": 0.834202,
+    "kind": "INVALID",
+    "route": [],
+    "expected_route": [],
+    "passed": true
+  }
+]

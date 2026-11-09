@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.8)
+project(turtlebot4_slam_nav)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY launch config rviz maps DESTINATION share/${PROJECT_NAME})
+install(FILES README.md LICENSE DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/prepare_ogre2_overlay.py scripts/prepare_camera_overlay.py DESTINATION lib/${PROJECT_NAME})
+install(FILES scripts/lab_env.bash DESTINATION share/${PROJECT_NAME}/scripts)
+ament_package()

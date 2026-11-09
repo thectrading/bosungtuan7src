@@ -1,0 +1,8 @@
+test_forced_endpoint_after_eight_seconds_and_unknown_is_preserved (test_speech_decoder.DecoderTests) ... ok
+test_no_partial_navigation_even_if_stable (test_speech_decoder.DecoderTests) ... ok
+test_runtime_grammar_keeps_real_vietnamese_unicode (test_speech_decoder.DecoderTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK

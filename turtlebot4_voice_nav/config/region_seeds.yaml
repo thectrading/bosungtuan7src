@@ -1,0 +1,18 @@
+# Semantic FUNCTIONAL zones selected on the existing maze map; not room detection.
+minimum_clearance_m: 0.32
+regions:
+  - id: A
+    name: Phòng học
+    aliases: [khu vực a, khu a, phòng a, phòng học, a]
+    seed: [-2.0, -3.0]
+    goal: [-2.0, -3.0, 0.0]
+  - id: B
+    name: Phòng thí nghiệm
+    aliases: [khu vực b, khu vực bê, khu b, phòng b, phòng bê, phòng thí nghiệm, phòng lab, b, bê]
+    seed: [2.0, -3.0]
+    goal: [2.0, -3.0, 0.0]
+  - id: C
+    name: Hành lang
+    aliases: [khu vực c, khu vực xê, khu c, phòng c, phòng xê, hành lang c, hành lang, c, xê]
+    seed: [-2.0, 4.0]
+    goal: [-2.0, 4.0, 1.5707963267948966]

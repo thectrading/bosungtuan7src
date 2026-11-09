@@ -1,0 +1,15 @@
+test_cancel_and_phonetic_aliases (test_core.CommandTests) ... ok
+test_extension_ordered_route (test_core.CommandTests) ... ok
+test_negation_unknown_acoustic_words_and_no_navigation_verb (test_core.CommandTests) ... ok
+test_three_required_sentences (test_core.CommandTests) ... ok
+test_unknown_anywhere_rejects_entire_route (test_core.CommandTests) ... ok
+test_unknown_suffix_never_ignored (test_core.CommandTests) ... ok
+test_cell_center_roundtrip_including_rotated_origin (test_core.MapTests) ... ok
+test_disconnected_space_not_assigned_across_wall (test_core.MapTests) ... ok
+test_region_goals_are_free_clear_and_in_correct_region (test_core.MapTests) ... ok
+test_unknown_pixels_and_unsafe_goals_are_rejected (test_core.MapTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.109s
+
+OK

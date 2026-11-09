@@ -1,0 +1,75 @@
+[
+  {
+    "source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+    "audio": "command_1.wav",
+    "spoken": "Đi đến khu vực A",
+    "transcript": "đi đến khu vực a",
+    "confidence": 0.9975902,
+    "kind": "NAVIGATE",
+    "route": [
+      "A"
+    ],
+    "expected_route": [
+      "A"
+    ],
+    "passed": true
+  },
+  {
+    "source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+    "audio": "command_2.wav",
+    "spoken": "Di chuyển từ khu vực A đến khu vực B",
+    "transcript": "di chuyển từ khu vực a đến khu vực bê",
+    "confidence": 0.9876225999999999,
+    "kind": "NAVIGATE",
+    "route": [
+      "A",
+      "B"
+    ],
+    "expected_route": [
+      "A",
+      "B"
+    ],
+    "passed": true
+  },
+  {
+    "source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+    "audio": "command_3.wav",
+    "spoken": "Đi đến phòng thí nghiệm",
+    "transcript": "đi đến phòng thí nghiệm",
+    "confidence": 0.9988085999999999,
+    "kind": "NAVIGATE",
+    "route": [
+      "B"
+    ],
+    "expected_route": [
+      "B"
+    ],
+    "passed": true
+  },
+  {
+    "source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+    "audio": "command_4.wav",
+    "spoken": "Đi đến hành lang",
+    "transcript": "đi đến hành lang",
+    "confidence": 1.0,
+    "kind": "NAVIGATE",
+    "route": [
+      "C"
+    ],
+    "expected_route": [
+      "C"
+    ],
+    "passed": true
+  },
+  {
+    "source": "SYNTHETIC_GOOGLE_TTS_AUDIO",
+    "audio": "command_5.wav",
+    "spoken": "Đi đến khu vực D",
+    "transcript": "đi đến khu vực đê",
+    "confidence": 0.9972452,
+    "kind": "UNKNOWN_REGION",
+    "route": [],
+    "expected_route": [],
+    "passed": true
+  }
+]

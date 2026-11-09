@@ -1,0 +1,14 @@
+yolo_detector:
+  ros__parameters:
+    use_sim_time: true
+    image_topic: /oakd/rgb/preview/image_raw
+    annotated_topic: /yolo/annotated_image
+    detections_topic: /yolo/detections
+    model: yolov8n.pt
+    confidence: 0.4
+    image_size: 416
+    device: cpu
+    inference_threads: 2
+    max_fps: 3.0
+    show_window: false
+    log_interval: 2.0

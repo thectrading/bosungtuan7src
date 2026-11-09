@@ -1,0 +1,5 @@
+vosk==0.3.45
+Pillow>=9.0
+numpy<2
+# Optional: portable FFmpeg for video compression/muxing, not needed for microphone.
+imageio-ffmpeg

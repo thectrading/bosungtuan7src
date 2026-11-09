@@ -1,0 +1,37 @@
+{
+  "original": "voice_navigation_20261107_101656.mp4",
+  "output": "DEMO_BAI07.mp4",
+  "video_unchanged_timing": true,
+  "original_video_frames": 2642,
+  "original_fps": 10.0,
+  "duration_s": 264.2,
+  "audio": "Synthetic Google TTS input clips added for audibility, not a human microphone recording",
+  "caption": "INPUT AUDIO - SYNTHETIC VIETNAMESE TTS | REAL VOSK + NAV2 + GAZEBO",
+  "audio_schedule": [
+    {
+      "synthetic_audio": "command_1.wav",
+      "video_start_s": 0.5729867763519287,
+      "duration_s": 1.968
+    },
+    {
+      "synthetic_audio": "command_3.wav",
+      "video_start_s": 3.135164239883423,
+      "duration_s": 1.872
+    },
+    {
+      "synthetic_audio": "command_2.wav",
+      "video_start_s": 47.19465788269043,
+      "duration_s": 3.216
+    },
+    {
+      "synthetic_audio": "command_4.wav",
+      "video_start_s": 143.85142451286316,
+      "duration_s": 1.44
+    },
+    {
+      "synthetic_audio": "command_5.wav",
+      "video_start_s": 228.34859164237977,
+      "duration_s": 1.92
+    }
+  ]
+}

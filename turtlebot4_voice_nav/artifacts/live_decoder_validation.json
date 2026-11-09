@@ -1,0 +1,55 @@
+{
+  "source": "CACHED_SYNTHETIC_AUDIO",
+  "method": "exact runtime make_recognizer + UtteranceDecoder PCM path",
+  "results": [
+    {
+      "audio": "command_1.wav",
+      "transcript": "đi đến khu vực a",
+      "confidence": 0.9975902,
+      "route": [
+        "A"
+      ],
+      "kind": "NAVIGATE",
+      "passed": true
+    },
+    {
+      "audio": "command_2.wav",
+      "transcript": "di chuyển từ khu vực a đến khu vực bê",
+      "confidence": 0.9878928,
+      "route": [
+        "A",
+        "B"
+      ],
+      "kind": "NAVIGATE",
+      "passed": true
+    },
+    {
+      "audio": "command_3.wav",
+      "transcript": "đi đến phòng thí nghiệm",
+      "confidence": 0.9982648000000001,
+      "route": [
+        "B"
+      ],
+      "kind": "NAVIGATE",
+      "passed": true
+    },
+    {
+      "audio": "command_4.wav",
+      "transcript": "đi đến hành lang",
+      "confidence": 1.0,
+      "route": [
+        "C"
+      ],
+      "kind": "NAVIGATE",
+      "passed": true
+    },
+    {
+      "audio": "command_5.wav",
+      "transcript": "đi đến khu vực đê",
+      "confidence": 0.996901,
+      "route": [],
+      "kind": "UNKNOWN_REGION",
+      "passed": true
+    }
+  ]
+}
